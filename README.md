@@ -1,4 +1,6 @@
 # Tripleten web_project_homeland
 
-Nombre del proyecto: Homeland
-Descripción: Página de contenido creada en base a un diseño en Figma, utilizando diseño responsivo para distintos tipos de pantallas. Se empleó HTML y CSS, desde estilos hasta contenedores flexibles.
+Project name: Homeland
+Description: Content page created based on a Figma design. It was created using HTML and CSS,the project includes responsive design so it can display correctly in different screen sizes, flex containers for positioning, styles, fonts.
+
+Github pages link: https://mrvacs.github.io/web_project_homeland/
