@@ -65,6 +65,73 @@
   line-height: 26.08px;
   font-weight: 400;
 }
+
+.content__photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-self: center;
+  width: 92.5%;
+  gap: 16px 16px;
+  margin-top: 1.96%;
+}
+.content__picture {
+  object-fit: fill;
+}
+
+.content__places {
+  width: 77.11%;
+  align-self: center;
+  margin-top: 1.53%;
+  display: grid;
+  row-gap: 1.36%;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.content__places_place {
+  width: 99.697%;
+  display: grid;
+  column-gap: 4.656%;
+  /* margin-top: 2.376%; */
+  box-sizing: content-box;
+  grid-template-columns: repeat(2, 1fr);
+}
+.content__places_left {
+  display: grid;
+  width: 50%;
+  row-gap: 6.35%;
+  grid-template-rows: 3;
+}
+.content__button {
+  color: #fff;
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: 0;
+}
+
+.content__places_right {
+  display: grid;
+  width: 50%;
+  padding-top: 12.46%;
+}
+
+.content__places_picture {
+  width: 35.9375vw;
+  box-shadow: 0px 4px 4px #000;
+}
+.content__places_title {
+  font-size: 72px;
+  line-height: 76px;
+  width: 35.9375vw;
+  margin: 0;
+}
+.content__NFT-title {
+  color: #aaa;
+}
+.content__NFT-Artists {
+  margin: 0;
+}
+
 @media (max-width: 1024px) {
   .content__lead {
     width: 93.75%;
@@ -118,6 +185,68 @@
     font-size: 16px;
     line-height: 26.08px;
     font-weight: 400;
+  }
+  .content__photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    width: 92.5%;
+    gap: 16px;
+    margin-top: 1.96%;
+  }
+
+  .content__places {
+    width: 77.11%;
+    align-self: center;
+    margin-top: 1.53%;
+    display: grid;
+    row-gap: 1.36%;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .content__places_place {
+    width: 99.697%;
+    display: grid;
+    column-gap: 4.656%;
+    /* margin-top: 2.376%; */
+    box-sizing: content-box;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content__places_left {
+    display: grid;
+    width: 50%;
+    row-gap: 6.35%;
+    grid-template-rows: 3;
+  }
+  .content__button {
+    color: #fff;
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 0;
+  }
+
+  .content__places_right {
+    display: grid;
+    width: 50%;
+    padding-top: 12.46%;
+  }
+
+  .content__places_picture {
+    width: 35.9375vw;
+    box-shadow: 0px 4px 4px #000;
+  }
+  .content__places_title {
+    font-size: 72px;
+    line-height: 76px;
+    width: 35.9375vw;
+    margin: 0;
+  }
+  .content__NFT-title {
+    color: #aaa;
+  }
+  .content__NFT-Artists {
+    margin: 0;
   }
 }
 @media (max-width: 544px) {
@@ -173,5 +302,67 @@
     font-size: 16px;
     line-height: 26.08px;
     font-weight: 400;
+  }
+  .content__photo-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-self: center;
+    width: 92.5%;
+    gap: 16px 16px;
+    margin-top: 1.96%;
+  }
+
+  .content__places {
+    width: 77.11%;
+    align-self: center;
+    margin-top: 1.53%;
+    display: grid;
+    row-gap: 1.36%;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .content__places_place {
+    width: 99.697%;
+    display: grid;
+    column-gap: 4.656%;
+    /* margin-top: 2.376%; */
+    box-sizing: content-box;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content__places_left {
+    display: grid;
+    width: 50%;
+    row-gap: 6.35%;
+    grid-template-rows: 3;
+  }
+  .content__button {
+    color: #fff;
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 0;
+  }
+
+  .content__places_right {
+    display: grid;
+    width: 50%;
+    padding-top: 12.46%;
+  }
+
+  .content__places_picture {
+    width: 35.9375vw;
+    box-shadow: 0px 4px 4px #000;
+  }
+  .content__places_title {
+    font-size: 72px;
+    line-height: 76px;
+    width: 35.9375vw;
+    margin: 0;
+  }
+  .content__NFT-title {
+    color: #aaa;
+  }
+  .content__NFT-Artists {
+    margin: 0;
   }
 }
