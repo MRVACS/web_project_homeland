@@ -87,7 +87,7 @@
   grid-template-rows: repeat(4, 1fr);
 }
 
-.content__places_place {
+.content__places-place {
   width: 99.697%;
   display: grid;
   column-gap: 4.656%;
@@ -95,11 +95,10 @@
   box-sizing: content-box;
   grid-template-columns: repeat(2, 1fr);
 }
-.content__places_left {
+.content__places-left {
   display: grid;
   width: 50%;
   row-gap: 6.35%;
-  grid-template-rows: 3;
 }
 .content__button {
   color: #fff;
@@ -109,17 +108,17 @@
   border: 0;
 }
 
-.content__places_right {
+.content__places-right {
   display: grid;
   width: 50%;
   padding-top: 12.46%;
 }
 
-.content__places_picture {
+.content__places-picture {
   width: 35.9375vw;
   box-shadow: 0px 4px 4px #000;
 }
-.content__places_title {
+.content__places-title {
   font-size: 72px;
   line-height: 76px;
   width: 35.9375vw;
@@ -204,7 +203,7 @@
     grid-template-rows: repeat(4, 1fr);
   }
 
-  .content__places_place {
+  .content__places-place {
     width: 99.697%;
     display: grid;
     column-gap: 4.656%;
@@ -212,11 +211,10 @@
     box-sizing: content-box;
     grid-template-columns: repeat(2, 1fr);
   }
-  .content__places_left {
+  .content__places-left {
     display: grid;
     width: 50%;
     row-gap: 6.35%;
-    grid-template-rows: 3;
   }
   .content__button {
     color: #fff;
@@ -226,17 +224,17 @@
     border: 0;
   }
 
-  .content__places_right {
+  .content__places-right {
     display: grid;
     width: 50%;
     padding-top: 12.46%;
   }
 
-  .content__places_picture {
+  .content__places-picture {
     width: 35.9375vw;
     box-shadow: 0px 4px 4px #000;
   }
-  .content__places_title {
+  .content__places-title {
     font-size: 72px;
     line-height: 76px;
     width: 35.9375vw;
@@ -321,7 +319,7 @@
     grid-template-rows: repeat(4, 1fr);
   }
 
-  .content__places_place {
+  .content__places-place {
     width: 99.697%;
     display: grid;
     column-gap: 4.656%;
@@ -329,31 +327,30 @@
     box-sizing: content-box;
     grid-template-columns: repeat(2, 1fr);
   }
-  .content__places_left {
+  .content__places-left {
     display: grid;
     width: 50%;
     row-gap: 6.35%;
-    grid-template-rows: 3;
   }
   .content__button {
     color: #fff;
-    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     border: 0;
   }
 
-  .content__places_right {
+  .content__places-right {
     display: grid;
     width: 50%;
     padding-top: 12.46%;
   }
 
-  .content__places_picture {
+  .content__places-picture {
     width: 35.9375vw;
     box-shadow: 0px 4px 4px #000;
   }
-  .content__places_title {
+  .content__places-title {
     font-size: 72px;
     line-height: 76px;
     width: 35.9375vw;
