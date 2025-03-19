@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +18,11 @@
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo.svg" class="header__image" alt="logo" />
+        <img
+          src="./images/logo.svg"
+          class="header__image"
+          alt="TripleTen logo"
+        />
       </header>
       <main class="content">
         <section class="content__lead">
@@ -31,7 +35,7 @@
           <img
             src="./images/__image.jpg"
             class="content__image"
-            alt="paisaje"
+            alt="paisaje principal blanco y negro"
           />
         </section>
         <section class="content__intro">
@@ -59,64 +63,79 @@
           </p>
         </section>
         <section class="content__photo-grid">
-          <img
-            src="./images/__item1.png"
-            class="content__picture"
-            alt="landscape1"
-          />
-          <img
-            src="./images/__item2.png"
-            class="content__picture"
-            alt="landscape2"
-          />
-          <img
-            src="./images/__item3.png"
-            class="content__picture"
-            alt="landscape3"
-          />
-          <img
-            src="./images/__item4.png"
-            class="content__picture"
-            alt="landscape4"
-          />
-          <img
-            src="./images/__item5.png"
-            class="content__picture"
-            alt="landscape5"
-          />
-          <img
-            src="./images/__item6.png"
-            class="content__picture"
-            alt="landscape6"
-          />
-          <img
-            src="./images/__item7.png"
-            class="content__picture"
-            alt="landscape7"
-          />
-          <img
-            src="./images/__item8.png"
-            class="content__picture"
-            alt="landscape8"
-          />
+          <div class="content__grid-container">
+            <img
+              src="./images/__item1.png"
+              class="content__picture"
+              alt="landscape1 scandinavic shore"
+            />
+          </div>
+          <div class="content__grid-container">
+            <img
+              src="./images/__item2.png"
+              class="content__picture"
+              alt="landscape2 city under shadows"
+            />
+          </div>
+          <div class="content__grid-container">
+            <img
+              src="./images/__item3.png"
+              class="content__picture"
+              alt="landscape3 chapel under sunset"
+            />
+          </div>
+          <div class="content__grid-container">
+            <img
+              src="./images/__item4.png"
+              class="content__picture"
+              alt="landscape4 bridge between sky and lake"
+            />
+          </div>
+          <div class="content__grid-container">
+            <img
+              src="./images/__item5.png"
+              class="content__picture"
+              alt="landscape5 grass field"
+            />
+          </div>
+          <div class="content__grid-container">
+            <img
+              src="./images/__item6.png"
+              class="content__picture"
+              alt="landscape6 city bushes"
+            />
+          </div>
+          <div class="content__grid-container">
+            <img
+              src="./images/__item7.png"
+              class="content__picture"
+              alt="landscape7 native houses"
+            />
+          </div>
+          <div class="content__grid-container">
+            <img
+              src="./images/__item8.png"
+              class="content__picture"
+              alt="landscape8 houses in the mountain"
+            />
+          </div>
         </section>
         <section class="content__places">
           <div class="content__places-place">
-            <div class="content__places-left">
-              <h2 class="content__places-title">Cricieth, Gales</h2>
-              <img
-                src="./images/__place1.png"
-                class="content__places-picture"
-                alt="¨place1"
-              />
-              <button class="content__button">Compra esta obra como NFT</button>
-            </div>
-            <div class="content__places-right">
+            <h2 class="content__places-title">Cricieth, Gales</h2>
+            <div>
               <h3 class="content__NFT-title">Artistas</h3>
               <p class="content__NFT-Artists">Steffan Warren, editor jefe</p>
               <p class="content__NFT-Artists">
                 Kseniya Glagoleva, gerente de proyectos
               </p>
+            </div>
+            <img
+              src="./images/__place1.png"
+              class="content__places-picture"
+              alt="¨place1 Gales shore city"
+            />
+            <div class="content__description">
               <p>
                 Las ruinas medievales del castillo de Cricieth dominan la ciudad
                 desde una roca que extiende sobre el mar. Se cree que fue
@@ -136,20 +155,20 @@
                 Primer Ministro del Reino Unido.
               </p>
             </div>
+            <button class="content__button">Compra esta obra como NFT</button>
           </div>
           <div class="content__places-place">
-            <div class="content__places-left">
-              <h2 class="content__places-title">Berea, EE.UU.</h2>
-              <img
-                src="./images/__place2.png"
-                class="content__places-picture"
-                alt="place2"
-              />
-              <button class="content__button">Compra esta obra como NFT</button>
-            </div>
-            <div class="content__places-right">
+            <h2 class="content__places-title">Berea, EE.UU.</h2>
+            <div class="content__artists">
               <h3 class="content__NFT-title">Artistas</h3>
               <p class="content__NFT-Artists">Travis Turner, autor y editor</p>
+            </div>
+            <img
+              src="./images/__place2.png"
+              class="content__places-picture"
+              alt="place2 Berea road"
+            />
+            <div class="content__description">
               <p>
                 Berea es una pequeña ciudad ubicada en la parte central de
                 Kentucky. La ciudad está rodeada por hermosos bosques y campos.
@@ -169,22 +188,22 @@
                 no cobra colegiatura: cada estudiante recibe una beca del 100%.
               </p>
             </div>
+            <button class="content__button">Compra esta obra como NFT</button>
           </div>
           <div class="content__places-place">
-            <div class="content__places-left">
-              <h2 class="content__places-title">Muramvya, Burundi</h2>
-              <img
-                src="./images/__place3.png"
-                class="content__places-picture"
-                alt="place3"
-              />
-              <button class="content__button">Compra esta obra como NFT</button>
-            </div>
-            <div class="content__places-right">
+            <h2 class="content__places-title">Muramvya, Burundi</h2>
+            <div class="content__artists">
               <h3 class="content__NFT-title">Artistas</h3>
               <p class="content__NFT-Artists">
                 Grevisse Kenguruka, editor técnico
               </p>
+            </div>
+            <img
+              src="./images/__place3.png"
+              class="content__places-picture"
+              alt="place3 Muramvya tower"
+            />
+            <div class="content__description">
               <p>
                 Muramvya es una de las 18 provincias de Burundi. Durante la
                 época del reino, Muramvya fue su capital; y en 2017, gracias a
@@ -213,20 +232,20 @@
                 país.
               </p>
             </div>
+            <button class="content__button">Compra esta obra como NFT</button>
           </div>
           <div class="content__places-place">
-            <div class="content__places-left">
-              <h2 class="content__places-title">Bogotá, Colombia</h2>
-              <img
-                src="./images/__place4.jpeg"
-                class="content__places-picture"
-                alt="place4"
-              />
-              <button class="content__button">Compra esta obra como NFT</button>
-            </div>
-            <div class="content__places-right">
+            <h2 class="content__places-title">Bogotá, Colombia</h2>
+            <div class="content__artists">
               <h3 class="content__NFT-title">Artistas</h3>
               <p class="content__NFT-Artists">Desconocido</p>
+            </div>
+            <img
+              src="./images/__place4.jpeg"
+              class="content__places-picture"
+              alt="place4 Bogota city upper view"
+            />
+            <div class="content__description">
               <p>
                 Bogotá es la extensa capital en altura de Colombia. La
                 Candelaria, su centro con adoquines, cuenta con sitios
@@ -260,6 +279,7 @@
                 cordillerana.
               </p>
             </div>
+            <button class="content__button">Compra esta obra como NFT</button>
           </div>
         </section>
       </main>
